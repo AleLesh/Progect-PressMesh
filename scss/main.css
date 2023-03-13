@@ -705,7 +705,7 @@ table {
   border-radius: 50%;
   cursor: pointer;
   box-sizing: border-box;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
 }
 
 .fifth-portfolio .content .bottom-sec .btns .left-btn:hover,
@@ -803,32 +803,42 @@ table {
 footer {
   max-width: 1440px;
   width: 100%;
-  height: 560px;
+  /*height: 560px;*/
   background-color: #1B4760;
 }
 footer .logo {
+  width: 216px;
+  height: 48px;
+  padding-top: 5.83%; /*84px*/
+  margin-left: 6.94%;
+}
+footer .logo img {
   width: 192px;
   height: 32px;
-  padding-top: 92px;
-  margin-left: 112px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 8px 12px;
 }
 footer .footer-content {
-  max-width: 1220px;
+  max-width: 84.72%; /*1220px*/
   width: 100%;
-  height: 288px;
+  /*height: 288px;*/
   display: flex;
-  justify-content: space-between;
-  margin: 2.85% 8.33% 6.87% 6.94%;
+  /*justify-content: space-between;*/
+  margin-top: 2.85%;
+  margin-right: 8.33%;
+  margin-left: 6.94%;
+  padding-bottom: 6.87%;
 }
 footer .footer-content .address-info {
+  min-width: 200px;
   max-width: 200px;
   width: 100%;
-  height: 218px;
+  /*height: 218px;*/
   display: grid;
   grid-template-rows: 42px 42px 42px 32px;
   row-gap: 20px;
+  margin-right: 11.47%;
 }
 footer .footer-content .address-info .address {
   font-family: "Rubik";
@@ -852,14 +862,12 @@ footer .footer-content .address-info .connect-logo .wrap-logo {
   display: grid;
 }
 footer .footer-content .infoblock {
+  max-width: 880px;
+  width: 100%;
   display: grid;
   grid-template-columns: 180px 180px 185px 185px;
   -moz-column-gap: 50px;
        column-gap: 50px;
-}
-footer .footer-content .infoblock .information {
-  max-width: 180px;
-  width: 100%;
 }
 footer .footer-content .infoblock .application {
   max-width: 217px;
@@ -894,6 +902,11 @@ footer .footer-content .infoblock a .big-size {
   .fourth-construction .bottom-line .left-grafic .circle {
     margin: 10%;
   }
+  footer .footer-content .infoblock {
+    -moz-column-gap: 0;
+         column-gap: 0;
+    grid-template-columns: 170px 170px 185px 170px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .third-autotuning .main-content,
@@ -905,6 +918,9 @@ footer .footer-content .infoblock a .big-size {
   .third-autotuning .main-content .left-block,
   .third-autotuning .main-content .center-block {
     margin-right: 2%;
+  }
+  footer .footer-content .address-info {
+    margin-right: 6.5%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -978,6 +994,22 @@ footer .footer-content .infoblock a .big-size {
   }
   .sixth-connection .connect {
     left: 42%;
+  }
+  footer .footer-content {
+    flex-direction: column;
+  }
+  footer .footer-content .infoblock {
+    grid-template-columns: 170px 170px 180px 160px;
+    -moz-column-gap: 1.5%;
+         column-gap: 1.5%;
+    margin-bottom: 40px;
+  }
+  footer .footer-content .address-info {
+    order: 1;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 42px 42px;
+    gap: 20px;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1057,6 +1089,19 @@ footer .footer-content .infoblock a .big-size {
     height: 400px;
     top: 21px;
     left: 87px;
+  }
+  footer .footer-content .infoblock {
+    grid-template-columns: 200px 200px;
+    gap: 30px;
+    /*margin-bottom: 30px;*/
+    justify-content: center;
+  }
+  footer .footer-content .address-info {
+    order: 1;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 42px 42px;
+    gap: 30px;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1175,6 +1220,16 @@ footer .footer-content .infoblock a .big-size {
   .sixth-connection .connect .conn-sect p {
     margin-bottom: 20px;
   }
+  footer .footer-content .infoblock {
+    grid-template-columns: 150px 150px;
+    gap: 20px;
+    justify-content: start;
+  }
+  footer .footer-content .address-info {
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 42px 42px;
+    gap: 20px;
+  }
 }
 @media screen and (max-width: 425px) {
   .first-container .menu nav {
@@ -1253,8 +1308,23 @@ footer .footer-content .infoblock a .big-size {
   .sixth-connection .connect .conn-sect p {
     font-size: 20px;
   }
+  footer .footer-content .infoblock {
+    grid-template-columns: 140px 140px;
+    gap: 15px;
+    justify-content: start;
+  }
+  footer .footer-content .infoblock a {
+    font-size: 12px;
+  }
+  footer .footer-content .address-info {
+    max-width: 200px;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 42px 42px 42px 32px;
+    row-gap: 20px;
+  }
 }
-@media screen and (max-width: 425px) and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .sixth-connection .left-pic .imag-decor {
     width: 330px;
     height: 330px;
