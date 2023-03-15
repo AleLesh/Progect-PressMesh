@@ -1051,10 +1051,47 @@ footer{ //а тут тег, поэтому и не работало
             flex-direction: column;            
 
             .infoblock{
-                grid-template-columns: 170px 170px 180px 160px;
+                /*grid-template-columns: 170px 170px 180px 160px;*/
+                grid-template-columns: 1fr 1fr 1fr 1fr;
                 column-gap: 1.5%;
                 margin-bottom: 40px;
             }
+
+            .address-info{
+                order: 1;
+                grid-template-columns: 200px 200px 200px 100px;                
+                grid-template-rows: 42px;
+                gap: 20px;
+                margin-right: 0;
+                width: 90%;
+            } 
+
+            /*.address-info{
+                order: 1;
+                grid-template-columns: 200px 200px;
+                grid-template-rows: 42px 42px;
+                gap: 20px;
+                margin-right: 0;                
+            }*/                   
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 850px){
+    footer{
+
+        .footer-content{
+            flex-direction: column;            
+
+            /*.infoblock{
+                /*grid-template-columns: 170px 170px 180px 160px;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 1.5%;
+                margin-bottom: 40px;
+            }*/
+            
 
             .address-info{
                 order: 1;
@@ -1062,12 +1099,14 @@ footer{ //а тут тег, поэтому и не работало
                 grid-template-rows: 42px 42px;
                 gap: 20px;
                 margin-right: 0;                
-            }                   
+            }               
         }
     }
 
-    
+
 }
+
+
 
 @media screen and (max-width: 768px){
     .first-container .content-cont-first{
@@ -1163,8 +1202,8 @@ footer{ //а тут тег, поэтому и не работало
 
             .infoblock{
                 grid-template-columns: 200px 200px;
-                gap: 30px;
-                /*margin-bottom: 30px;*/
+                column-gap: 30px;
+                row-gap: 45px;
                 justify-content: center;
             }
 
@@ -1172,8 +1211,8 @@ footer{ //а тут тег, поэтому и не работало
                 order: 1;
                 grid-template-columns: 200px 200px;
                 grid-template-rows: 42px 42px;
-                gap: 30px;
-                margin-right: 0;               
+                gap: 30px;                
+                margin-right: 0;              
                 
             }                   
         }
@@ -1321,8 +1360,9 @@ footer{ //а тут тег, поэтому и не работало
     
             .infoblock{
                 grid-template-columns: 150px 150px;
-                gap: 20px;
-                justify-content: start;
+                column-gap: 20px;
+                row-gap: 40px;
+                justify-content: center;
             }
     
             .address-info{
@@ -1422,11 +1462,20 @@ footer{ //а тут тег, поэтому и не работало
 
     footer{
 
+        .logo {
+            
+            img {
+            width: 160px;
+            height: 27px;
+            }
+        }
+
         .footer-content{                      
 
             .infoblock{
                 grid-template-columns: 140px 140px;
-                gap: 15px;
+                column-gap: 15px;
+                row-gap: 30px;
                 justify-content: start;
 
                 a{
