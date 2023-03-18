@@ -1,0 +1,17 @@
+@mixin name-block{
+    font-family: 'Ruda';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    color: #364452;
+    padding-bottom: 28px;
+    letter-spacing: -0.02em;
+}
+
+@mixin text-type{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #364452;
+}
