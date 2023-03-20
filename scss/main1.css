@@ -57,6 +57,7 @@ table {
   background-image: url("../images1/backgr-p-2.jfif");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .first-container .first-container-wrap {
@@ -66,6 +67,7 @@ table {
 }
 
 .first-container .menu {
+  /*max-width: 1440px;*/
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -136,6 +138,77 @@ table {
   line-height: 140%;
   color: #FCFCFD;
   text-align: center;
+}
+.first-container .secondary-menu {
+  position: absolute;
+  top: 0;
+  max-width: 1440px;
+  width: 100%;
+  /*max-height: 960px;*/
+  height: 100%;
+  background-color: #225B7B;
+  display: none;
+}
+.first-container .secondary-menu .menu {
+  height: 68px;
+}
+.first-container .secondary-menu .block-cross {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  margin-right: 33px;
+  cursor: pointer;
+}
+.first-container .secondary-menu .center-sect {
+  max-width: 931px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 217px 217px 217px;
+  -moz-column-gap: 140px;
+       column-gap: 140px;
+  padding-top: 16.11%;
+  padding-bottom: 17.36%;
+  margin: 0 auto;
+}
+.first-container .secondary-menu .center-sect .list .ul-name {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #D0D5DD;
+  padding-bottom: 24px;
+}
+.first-container .secondary-menu .center-sect .list .items li {
+  padding-bottom: 16px;
+}
+.first-container .secondary-menu .center-sect .list .items li a {
+  font-family: "Open Sans";
+  color: #D0D5DD;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.first-container .secondary-menu .center-sect .list .items .resize {
+  min-width: 244px;
+  width: 100%;
+}
+.first-container .secondary-menu .center-sect .list .final {
+  padding-top: 8px;
+}
+.first-container .secondary-menu .center-sect .list .final a {
+  font-family: "Open Sans";
+  color: #D0D5DD;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+.first-container .secondary-menu.active {
+  display: block;
 }
 
 /* SECOND CONTAINRER */
@@ -255,7 +328,7 @@ table {
   color: #667085;
   margin-bottom: 29px;
 }
-.second-continer .application-block .applic-content .applic-item .applic-text.open {
+.second-continer .application-block .applic-content .applic-item.open .applic-text {
   display: block;
 }
 
@@ -437,7 +510,7 @@ table {
 
 .sixth-connection .connect .conn-sect .btn-wrap .btn-connect {
   text-align: center;
-  padding-top: 16px;
+  padding-top: 19.1px;
   padding-bottom: 16px;
   text-decoration: none;
   font-family: "Rubik";
@@ -458,6 +531,163 @@ table {
 .sixth-connection .connect .conn-sect .btn-wrap .btn-connect:hover {
   background-color: #FCFCFD;
   color: #225B7B;
+}
+
+/* message block*/
+.seven-massage {
+  max-width: 1440px;
+  width: 100%;
+  /*max-height: 600px;*/
+  height: 100%;
+  background-color: #225B7B;
+  display: none;
+}
+.seven-massage .message-block {
+  max-width: 800px;
+  width: 100%;
+  /*max-height: 600px;*/
+  height: 100%;
+  background-color: #F2F4F7;
+  margin: 0 auto;
+}
+.seven-massage .message-block .close-cross {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 19px;
+  margin-right: 20px;
+  margin-left: 93.5%;
+}
+.seven-massage .message-block form {
+  max-width: 664px;
+  width: 100%;
+  /*height: 430px;*/
+  margin: 0 auto;
+  padding-top: 19px;
+  padding-bottom: 12.5%;
+}
+.seven-massage .message-block form h3 {
+  font-family: "Ruda";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 120%;
+  color: #344054;
+  padding-bottom: 16px;
+}
+.seven-massage .message-block form .main-cont {
+  display: grid;
+  grid-template-columns: 320px 320px;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+.seven-massage .message-block form .main-cont .left-block .fill-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475467;
+  padding-bottom: 6px;
+  padding-top: 16px;
+}
+.seven-massage .message-block form .main-cont .left-block input {
+  width: 100%;
+  height: 52px;
+  border: solid 1px #D0D5DD;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #ffffff;
+  /*color: #98A2B3;*/
+  color: #475467;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  padding-left: 16px;
+}
+.seven-massage .message-block form .main-cont .left-block input::-moz-placeholder {
+  color: rgb(152, 162, 179);
+}
+.seven-massage .message-block form .main-cont .left-block input::placeholder {
+  color: rgb(152, 162, 179);
+}
+.seven-massage .message-block form .main-cont .left-block input:-ms-input-placeholder {
+  color: rgb(152, 162, 179);
+}
+.seven-massage .message-block form .main-cont .left-block .send-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #667085;
+  padding-top: 40px;
+  padding-bottom: 3px;
+}
+.seven-massage .message-block form .main-cont .left-block .send-text span {
+  color: #344054;
+}
+.seven-massage .message-block form .main-cont .right-block .fill-text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475467;
+  padding-bottom: 6px;
+  padding-top: 16px;
+}
+.seven-massage .message-block form .main-cont .right-block textarea {
+  width: 100%;
+  height: 240px;
+  border: solid 1px #D0D5DD;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #ffffff;
+  color: #475467;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  padding-left: 16px;
+  padding-top: 10px;
+}
+.seven-massage .message-block form .main-cont .right-block textarea::-moz-placeholder {
+  color: rgb(152, 162, 179);
+}
+.seven-massage .message-block form .main-cont .right-block textarea::placeholder {
+  color: rgb(152, 162, 179);
+}
+.seven-massage .message-block form .main-cont .right-block textarea:-ms-input-placeholder {
+  color: rgb(152, 162, 179);
+}
+.seven-massage .message-block form .main-cont .right-block .btn-wrap {
+  max-width: 199px;
+  width: 100%;
+  height: 54px;
+  background: #2C76A0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.seven-massage .message-block form .main-cont .right-block .btn-wrap img {
+  margin-right: 10px;
+}
+.seven-massage .message-block form .main-cont .right-block .btn-wrap:hover {
+  border: solid 0.8px #6897e3;
+  background-color: rgba(44, 118, 160, 0.5);
+}
+
+.seven-massage.openz {
+  display: block;
 }
 
 /*FOOTER*/
@@ -570,26 +800,29 @@ footer .footer-content .infoblock a .big-size {
   }
 }
 @media screen and (max-width: 1200px) {
-  .third-autotuning .main-content,
+  /*.third-autotuning .main-content,
   .fourth-construction .top-line,
-  .fourth-construction .bottom-line {
-    max-width: 95%;
-    margin: 0 auto;
+  .fourth-construction .bottom-line{
+      max-width: 95%;
+      margin: 0 auto;
   }
   .third-autotuning .main-content .left-block,
-  .third-autotuning .main-content .center-block {
-    margin-right: 2%;
-  }
+  .third-autotuning .main-content .center-block{
+      margin-right: 2%;
+  }*/
   .first-container .first-container-wrap .content-center {
     margin: 0 auto;
   }
-  /*margin-left: 22.29%;
-  margin-right: 30.48%;*/
   footer .footer-content .address-info {
     margin-right: 6.5%;
   }
 }
 @media screen and (max-width: 1024px) {
+  .first-container .secondary-menu .center-sect {
+    max-width: 780px;
+    -moz-column-gap: 60px;
+         column-gap: 60px;
+  }
   .second-continer .industry {
     max-width: 700px;
   }
@@ -628,6 +861,12 @@ footer .footer-content .infoblock a .big-size {
   }
 }
 @media screen and (max-width: 850px) {
+  .first-container .secondary-menu .center-sect {
+    max-width: 665px;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+    padding-top: 5%;
+  }
   footer .footer-content {
     flex-direction: column;
   }
@@ -654,6 +893,19 @@ footer .footer-content .infoblock a .big-size {
 @media screen and (max-width: 768px) {
   .first-container .first-container-wrap .content-center {
     max-width: 650px;
+  }
+  .first-container .secondary-menu .center-sect {
+    max-width: 495px;
+    grid-template-columns: 150px 150px 190px;
+  }
+  .first-container .secondary-menu .center-sect .list .ul-name {
+    font-size: 16px;
+  }
+  .first-container .secondary-menu .center-sect .list .items li a {
+    font-size: 14px;
+  }
+  .first-container .secondary-menu .center-sect .list .final a {
+    font-size: 16px;
   }
   .second-continer .industry {
     max-width: 550px;
@@ -702,12 +954,18 @@ footer .footer-content .infoblock a .big-size {
     top: 21px;
     left: 87px;
   }
+  .seven-massage .message-block form {
+    max-width: 570px;
+  }
+  .seven-massage .message-block form .main-cont {
+    grid-template-columns: 300px;
+  }
   footer .footer-content .infoblock {
     grid-template-columns: 200px 200px;
     -moz-column-gap: 30px;
          column-gap: 30px;
     row-gap: 45px;
-    justify-content: center;
+    justify-content: start;
   }
   footer .footer-content .address-info {
     order: 1;
@@ -732,6 +990,17 @@ footer .footer-content .infoblock a .big-size {
     max-width: 420px;
     font-size: 16px;
     margin: 0 auto;
+  }
+  .first-container .secondary-menu .center-sect {
+    max-width: 290px;
+    grid-template-columns: 290px;
+    row-gap: 24px;
+  }
+  .first-container .secondary-menu .center-sect .list .final {
+    padding-top: 0;
+  }
+  .first-container .secondary-menu .center-sect .list .items {
+    display: none;
   }
   .second-continer .industry {
     max-width: 370px;
@@ -798,12 +1067,20 @@ footer .footer-content .infoblock a .big-size {
   .sixth-connection .connect .conn-sect p {
     margin-bottom: 20px;
   }
+  .seven-massage .message-block .close-cross {
+    margin-left: 90%;
+  }
+  .seven-massage .message-block form {
+    max-width: 300px;
+  }
+  .seven-massage .message-block form h3 {
+    font-size: 24px;
+  }
   footer .footer-content .infoblock {
     grid-template-columns: 150px 150px;
     -moz-column-gap: 20px;
          column-gap: 20px;
     row-gap: 40px;
-    justify-content: center;
   }
   footer .footer-content .address-info {
     grid-template-columns: 150px 150px;

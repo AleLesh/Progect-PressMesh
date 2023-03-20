@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PressMesh</title>
+    <title>PressMesh-1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,600&family=Rubik&family=Ruda:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
             <div class="first-container-wrap">
             <header class="menu">
                 <div class="logo">
-                    <img src="./images1/label1.jpg" alt="logo">
+                    <a name="car"><img src="./images1/label1.jpg" alt="logo"></a>
                 </div>
 
                 <nav class="menu-top">
@@ -39,8 +39,65 @@
                 <p class="application">применение</p>
                 <h1>Автотюнинг</h1>
                 <p class="slogan">это способ сделать свой автомобиль уникальным, выразить себя через свою машину</p>                
-            </div>
-            
+            </div>            
+            </div>        
+
+            <div class="secondary-menu">
+                <div class="menu">
+                    <div class="logo">
+                        <img src="./images1/label1.jpg" alt="logo">
+                    </div>
+
+                    <div class="block-cross">
+                        <img src="./images1/close-menu-cross.png" alt="close-cross">
+                    </div>     
+                </div>
+
+                <div class="center-sect">
+                    <div class="list">
+                        <p class="ul-name">Компания</p>
+                        <ul class="left items">
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">История</a></li>
+                            <li><a href="#">Партнеры</a></li>
+                            <li><a href="#">Сертификаты</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Блог</a></li>
+                        </ul>
+                        <p class="final"><a href="#">Интернет-магазин</a></p>
+                    </div>
+
+                    <div class="list">
+                        <p class="ul-name">Продукция</p>
+                        <ul class="centroz items">
+                            <li><a href="#">PressMesh-R</a></li>
+                            <li><a href="#">PressMesh-Q</a></li>
+                            <li><a href="#">PressMesh-KR</a></li>
+                            <li><a href="#">PressMesh-CH</a></li>
+                            <li><a href="#">PressMesh-SH</a></li>
+                            <li><a href="#">PressMesh-TDec</a></li>
+                            <li><a href="#">PressMesh-S</a></li>                        
+                        </ul>
+                        <p class="final"><a href="#">Вся продукция</a></p>
+                    </div>                
+
+                    <div class="list">
+                        <p class="ul-name">Применение</p>
+                        <ul class="rights items">
+                            <li><a href="#">Строительство</a></li>
+                            <li><a href="#">Интерьер</a></li>
+                            <li><a href="#">Системы вентиляции</a></li>
+                            <li><a href="#">Фильтрация</a></li>
+                            <li><a href="#">Микорсетка</a></li>
+                            <li class="resize"><a href="#">Пищевая промышленность</a></li>
+                            <li><a href="#">Автотюнинг</a></li>
+                            <li><a href="#">Защитные конструкции</a></li>
+                        </ul>
+                        <p class="final"><a href="#">Все направления</a></p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -56,10 +113,10 @@
                 <h2 class="applicat-name">Применение сетки PressMesh<span>&reg;</span></h2>            
             
                 <div class="applic-content">
-                    <div class="applic-item">
+                    <div class="applic-item" id="appl1">
                         <div class="main-line resize">
                             <h5>Декоративные вставки в аэродинамические обвесы</h5>
-                            <div class="plus">
+                            <div class="plus" id="plus1">
                                 <img src="./images1/plus.png" alt="plus">
                             </div>
                         </div>
@@ -75,10 +132,10 @@
                         </div>                        
                     </div>
 
-                    <div class="applic-item">
+                    <div class="applic-item" id="appl2">
                         <div class="main-line">
                             <h5>Решетки капота</h5>
-                            <div class="plus">
+                            <div class="plus" id="plus2">
                                 <img src="./images1/plus.png" alt="plus">
                             </div>
                         </div>
@@ -94,10 +151,10 @@
                         </div>
                     </div>
 
-                    <div class="applic-item">
+                    <div class="applic-item" id="appl3">
                         <div class="main-line">
                             <h5>Решетки радиатора</h5>
-                            <div class="plus">
+                            <div class="plus" id="plus3">
                                 <img src="./images1/plus.png" alt="plus">
                             </div>
                         </div>
@@ -114,15 +171,15 @@
                         
                     </div>
 
-                    <div class="applic-item">
+                    <div class="applic-item open" id="appl4">
                         <div class="main-line">
                             <h5>Решетка бампера</h5>
-                                <div class="plus rotate-plus">
+                                <div class="plus rotate-plus" id="plus4">
                                     <img src="./images1/plus.png" alt="plus">
                                 </div>
                         </div>
 
-                        <div class="applic-text open close">
+                        <div class="applic-text">
                             <p>Sed amet amet dui tortor egestas nisl. Nibh maecenas enim volutpat, id sed aliquam in nullam quam. 
                                 Ut viverra ut at dolor blandit consequat arcu. Dolor nisl a egestas consequat amet. Tempor sed sit non volutpat id. 
                                 Eget lobortis magna enim ornare condimentum integer orci. Sed integer volutpat consectetur eu, mauris. 
@@ -176,11 +233,59 @@
                 <p>Свяжитесь с нами, если у вас остались вопросы</p>
 
                 <div class="btn-wrap">
-                    <a class="btn-connect" href="#">Написать сообщение</a>
+                    <div class="btn-connect" id="masss">Написать сообщение</div>
                 </div>
                 </div>
             </div>
         </section>
+
+        <section class="seven-massage" id="sevmes">
+            <div class="message-block">
+                <div class="close-cross">
+                    <img src="./images1/close-mess.png" alt="close-pic">
+                </div>
+
+                <form action="/" method="get">
+                    <h3>Отправить сообщение</h3>
+                    <div class="main-cont">
+                        <div class="left-block">
+                            <p class="fill-text">Ваше имя</p>
+                            <div>
+                                <input type="text" placeholder="Ваше имя"
+                                name="yourName">
+                            </div>
+
+                            <p class="fill-text">Email</p>
+                            <div>
+                                <input type="email" placeholder="@"
+                                name="email">
+                            </div>
+
+                            <p class="fill-text">Телефон</p>
+                            <div>
+                                <input type="phone" placeholder="+7"
+                                name="phone">
+                            </div>
+
+                            <p class="send-text">Нажимая кнопку «Отправить», вы соглашаетесь на обработку персональных данных в соответствии с 
+                                <span>Политикой конфиденциальности.</span></p>
+
+                        </div>
+                        <div class="right-block">
+                            <p class="fill-text">Текст обращения</p>
+                            <div>
+                            <textarea placeholder="Ваш вопрос" name="messtext"></textarea>
+                            </div>
+                            <div class="btn-wrap">
+                                <img src="./images1/submit-vector.png" alt="submit-vector">
+                                <p>Отправить</p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>    
+        </section>
+                 
 
         <footer>
             <div class="logo">
@@ -195,11 +300,11 @@
 
                     <div class="connect-logo">
                         <div class="wrap-logo">
-                            <img src="./images1/VKontacte.png" alt="logo-vkontacte">
+                            <a href="#"><img src="./images1/VKontacte.png" alt="logo-vkontacte"></a>
                         </div>
 
                         <div class="wrap-logo">
-                            <img src="./images1/telega.png" alt="logo-telegram">
+                            <a href="#"><img src="./images1/telega.png" alt="logo-telegram"></a>
                         </div>
                     </div>
                 </div>
@@ -256,6 +361,6 @@
 
         </footer>
     </div>
-    <script src="./js/script.js"></script>    
+    <script src="./js/script1.js"></script>    
 </body>
 </html>

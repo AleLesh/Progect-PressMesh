@@ -9,6 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,600&family=Rubik&family=Ruda:wght@400;500;600;700&display=swap" rel="stylesheet">
 <!--<link rel="icon" href="image/NPage.jpg" type="image/jpg">-->
+<!--<link rel="stylesheet" href="./css/owl.carousel.min.css">-->
+<!--<link rel="stylesheet" href="./css/owl.theme.default.min.css">-->
 <link rel="stylesheet" href="./scss/main.css">
 </head>
 <body>
@@ -61,7 +63,66 @@
                 <div class="btn-back gr2"></div>
                 <div class="btn-back gr3"></div>
             </div>
+            <!--</div>-->
+
+            <div class="secondary-menu">
+                <div class="menu">
+                    <div class="logo">
+                        <img src="./images1/label1.jpg" alt="logo">
+                    </div>
+
+                    <div class="block-cross">
+                        <img src="./images1/close-menu-cross.png" alt="close-cross">
+                    </div>     
+                </div>
+
+                <div class="center-sect">
+                    <div class="list">
+                        <p class="ul-name">Компания</p>
+                        <ul class="left items">
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">История</a></li>
+                            <li><a href="#">Партнеры</a></li>
+                            <li><a href="#">Сертификаты</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Блог</a></li>
+                        </ul>
+                        <p class="final"><a href="#">Интернет-магазин</a></p>
+                    </div>
+
+                    <div class="list">
+                        <p class="ul-name">Продукция</p>
+                        <ul class="centroz items">
+                            <li><a href="#">PressMesh-R</a></li>
+                            <li><a href="#">PressMesh-Q</a></li>
+                            <li><a href="#">PressMesh-KR</a></li>
+                            <li><a href="#">PressMesh-CH</a></li>
+                            <li><a href="#">PressMesh-SH</a></li>
+                            <li><a href="#">PressMesh-TDec</a></li>
+                            <li><a href="#">PressMesh-S</a></li>                        
+                        </ul>
+                        <p class="final"><a href="#">Вся продукция</a></p>
+                    </div>                
+
+                    <div class="list">
+                        <p class="ul-name">Применение</p>
+                        <ul class="rights items">
+                            <li><a href="#">Строительство</a></li>
+                            <li><a href="#">Интерьер</a></li>
+                            <li><a href="#">Системы вентиляции</a></li>
+                            <li><a href="#">Фильтрация</a></li>
+                            <li><a href="#">Микорсетка</a></li>
+                            <li class="resize"><a href="#">Пищевая промышленность</a></li>
+                            <li><a href="#">Автотюнинг</a></li>
+                            <li><a href="#">Защитные конструкции</a></li>
+                        </ul>
+                        <p class="final"><a href="#">Все направления</a></p>
+                    </div>
+                </div>
             </div>
+        </div>
         </section>
 
         <section class="second-continer">
@@ -89,7 +150,7 @@
                          Accumsan, pellentesque pretium tempus feugiat dictumst nulla fermentum enim enim.</p>
 
                     <div class="btn-wrap">
-                        <a class="btn-autotuning" href="#">подробнее</a>
+                        <a class="btn-autotuning" href="./index1.html#car" target="_blank">подробнее</a>
                     </div>
                 </div>
 
@@ -164,20 +225,20 @@
         <section class="fifth-portfolio">
             <div class="content">
                 <p>портфолио</p>
-                <div class="slider">
-                    <div class="object portfol-1">
+                <div class="obj-slid owl-carousel owl-theme">
+                    <div class="object portfol-1 slider item">
                         <img src="./images1/portfolio-1.png" alt="object-1">
                         <h5>Название проекта</h5>
                         <p class="objects-description">Категория: Фасады<span>Дата: Июль, 2020</span></p>
                     </div>
 
-                    <div class="object portfol-2">
+                    <div class="object portfol-2 slider item">
                         <img src="./images1/portfolio-2.png" alt="object-2">
                         <h5>Название проекта</h5>
                         <p class="objects-description">Категория: Фасады<span>Дата: Июль, 2020</span></p>
                     </div>
 
-                    <div class="object portfol-3">
+                    <div class="object portfol-3 slider item">
                         <img src="./images1/portfolio-3.jfif" alt="object-3">
                         <h5>Название проекта</h5>
                         <p class="objects-description">Категория: Фасады<span>Дата: Июль, 2020</span></p>
@@ -186,10 +247,10 @@
 
                 <div class="bottom-sec">
                     <div class="btn-wrap">
-                        <a class="btn-all-progects" href="#">все проекты</a>
+                        <a class="btn-all-progects" href="./index2.html#allprogect" target="_blank">все проекты</a>
                     </div>
 
-                    <div class="btns">
+                    <div class="btns swiper">
                         <span class="left-btn"><img src="./images1/Vector-left-5-sec.png" alt="indic left"></span>
                         <span class="right-btn"><img src="./images1/Vector-right-5-sec.png" alt="indic right"></span>
                     </div>
@@ -213,7 +274,7 @@
                 </div>
                 </div>
             </div>
-        </section>
+        </section>        
 
         <footer>
             <div class="logo">
@@ -288,6 +349,35 @@
             </div>
 
         </footer>
-    </div>    
+    </div>
+
+    <script src="./js/script.js"></script>   
+
+    <!--<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            // margin:10,
+            nav:true,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1
+                }
+            }
+        })
+    </script>-->
+     
 </body>
 </html>
+
+
+<!--<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.mySwiper1', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },            
+        });
+        </script>-->
