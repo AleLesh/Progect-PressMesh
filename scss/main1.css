@@ -526,6 +526,7 @@ table {
   transition: 0.8s;
   display: inline-block;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .sixth-connection .connect .conn-sect .btn-wrap .btn-connect:hover {
@@ -559,6 +560,7 @@ table {
   padding-top: 19px;
   margin-right: 20px;
   margin-left: 93.5%;
+  cursor: pointer;
 }
 .seven-massage .message-block form {
   max-width: 664px;
@@ -731,12 +733,13 @@ footer .footer-content .address-info {
   row-gap: 20px;
   margin-right: 11.47%;
 }
-footer .footer-content .address-info .address {
+footer .footer-content .address-info .address a {
   font-family: "Rubik";
   font-weight: 400;
   font-size: 10px;
   line-height: 140%;
   color: #D0D5DD;
+  text-decoration: none;
 }
 footer .footer-content .address-info .connect-logo {
   display: grid;
@@ -751,6 +754,7 @@ footer .footer-content .address-info .connect-logo .wrap-logo {
   align-items: center;
   justify-items: center;
   display: grid;
+  cursor: pointer;
 }
 footer .footer-content .infoblock {
   max-width: 880px;
@@ -784,15 +788,6 @@ footer .footer-content .infoblock a .big-size {
 
 /* *** ADAPTIVЕ *** */
 @media screen and (max-width: 1300px) {
-  .fourth-construction .top-line .right-grafic,
-  .fourth-construction .bottom-line .left-grafic {
-    max-width: 414px;
-    max-height: 414px;
-  }
-  .fourth-construction .top-line .right-grafic .circle,
-  .fourth-construction .bottom-line .left-grafic .circle {
-    margin: 10%;
-  }
   footer .footer-content .infoblock {
     -moz-column-gap: 0;
          column-gap: 0;
@@ -800,16 +795,6 @@ footer .footer-content .infoblock a .big-size {
   }
 }
 @media screen and (max-width: 1200px) {
-  /*.third-autotuning .main-content,
-  .fourth-construction .top-line,
-  .fourth-construction .bottom-line{
-      max-width: 95%;
-      margin: 0 auto;
-  }
-  .third-autotuning .main-content .left-block,
-  .third-autotuning .main-content .center-block{
-      margin-right: 2%;
-  }*/
   .first-container .first-container-wrap .content-center {
     margin: 0 auto;
   }

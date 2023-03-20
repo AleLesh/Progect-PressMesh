@@ -1,21 +1,21 @@
 document.querySelector('#plus4').onclick = function(){
-    document.querySelector('#plus4').classList.toggle('rotate-plus')  ///трансформ крестика
-    document.querySelector('#appl4').classList.toggle('open')  ///отображаем/скрываем элемент
+    document.querySelector('#plus4').classList.toggle('rotate-plus')  
+    document.querySelector('#appl4').classList.toggle('open')  
 }
 
 document.querySelector('#plus1').onclick = function(){
-    document.querySelector('#plus1').classList.toggle('rotate-plus')  ///трансформ крестика
-    document.querySelector('#appl1').classList.toggle('open')  ///отображаем/скрываем элемент
+    document.querySelector('#plus1').classList.toggle('rotate-plus')  
+    document.querySelector('#appl1').classList.toggle('open') 
 }
 
 document.querySelector('#plus2').onclick = function(){
-    document.querySelector('#plus2').classList.toggle('rotate-plus')  ///трансформ крестика
-    document.querySelector('#appl2').classList.toggle('open')  ///отображаем/скрываем элемент
+    document.querySelector('#plus2').classList.toggle('rotate-plus')  
+    document.querySelector('#appl2').classList.toggle('open')  
 }
 
 document.querySelector('#plus3').onclick = function(){
-    document.querySelector('#plus3').classList.toggle('rotate-plus')  ///трансформ крестика
-    document.querySelector('#appl3').classList.toggle('open')  ///отображаем/скрываем элемент
+    document.querySelector('#plus3').classList.toggle('rotate-plus')  
+    document.querySelector('#appl3').classList.toggle('open')  
 }
 
                 

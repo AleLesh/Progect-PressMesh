@@ -19,13 +19,13 @@
 //}
 
                 
-//document.querySelector('#masss').onclick = function(){
-//    document.querySelector('#sevmes').classList.add('openz')    
-//}
+document.querySelector('#masss').onclick = function(){
+    document.querySelector('#sevmes').classList.add('openz')    
+}
 
-//document.querySelector('.close-cross').onclick = function(){
- //   document.querySelector('#sevmes').classList.remove('openz')
-//}
+document.querySelector('.close-cross').onclick = function(){
+    document.querySelector('#sevmes').classList.remove('openz')
+}
 
 document.querySelector('.bar').onclick = function(){
     document.querySelector('.secondary-menu').classList.add('active');
@@ -34,4 +34,12 @@ document.querySelector('.bar').onclick = function(){
 
 document.querySelector('.block-cross').onclick = function(){
     document.querySelector('.secondary-menu').classList.remove('active')
+}
+
+document.querySelector('.play').onclick = function(){
+  document.querySelector('.car-imagery').classList.add('action')    
+}
+
+document.querySelector('.stop').onclick = function(){
+  document.querySelector('.car-imagery').classList.remove('action')    
 }

@@ -545,6 +545,7 @@ table {
     transition: 0.8s;
 	display: inline-block;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .sixth-connection .connect .conn-sect .btn-wrap .btn-connect:hover{
@@ -579,6 +580,7 @@ table {
             padding-top: 19px;
             margin-right: 20px;
             margin-left: 93.5%;
+            cursor: pointer;
         }
 
         form{
@@ -774,13 +776,16 @@ footer{
             row-gap: 20px;
             margin-right: 11.47%;
 
-            .address
-            {
+            .address{
+
+                a{
                 font-family: 'Rubik';
                 font-weight: 400;
                 font-size: 10px;
                 line-height: 140%;
                 color: #D0D5DD;
+                text-decoration: none;
+                }                
             }
 
             .connect-logo
@@ -796,7 +801,8 @@ footer{
                     height: 32px;
                     align-items: center;
                     justify-items: center;
-                    display: grid;                                
+                    display: grid;
+                    cursor: pointer;                                
                 }               
             }           
         }
@@ -838,27 +844,9 @@ footer{
     }
 }
 
-
-
-
-
-
-
 /* *** ADAPTIVЕ *** */
 
 @media screen and (max-width: 1300px){
-    .fourth-construction .top-line .right-grafic,
-    .fourth-construction .bottom-line .left-grafic{
-        max-width: 414px;
-        max-height: 414px;
-    }
-
-    .fourth-construction .top-line .right-grafic .circle,
-    .fourth-construction .bottom-line .left-grafic .circle{
-       margin: 10%;
-    }
-
-    
     
     footer{
 
@@ -872,18 +860,8 @@ footer{
     }
 }
 
-
 @media screen and (max-width: 1200px){
-    /*.third-autotuning .main-content,
-    .fourth-construction .top-line,
-    .fourth-construction .bottom-line{
-        max-width: 95%;
-        margin: 0 auto;
-    }
-    .third-autotuning .main-content .left-block,
-    .third-autotuning .main-content .center-block{
-        margin-right: 2%;
-    }*/
+    
     .first-container{
 
         .first-container-wrap{
@@ -892,7 +870,7 @@ footer{
                 margin: 0 auto;
             }
         }        
-    }              
+    }         
            
 
     footer{
