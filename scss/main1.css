@@ -118,6 +118,10 @@ table {
   margin: 0 auto;
   padding-bottom: 40px;
 }
+.first-container .first-container-wrap .content-center .application a {
+  text-decoration: none;
+  color: #9DA5AE;
+}
 .first-container .first-container-wrap .content-center h1 {
   max-width: 323px;
   width: 100%;

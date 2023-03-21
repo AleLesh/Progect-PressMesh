@@ -462,13 +462,6 @@ table {
 }
 
 .third-autotuning .main-content .left-block h2{
-    /*max-width: 600px;
-    width: 100%;
-    font-family: 'Ruda';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 120%;
-    letter-spacing: -0.02em;*/
     max-width: 320px;
     color: #FCFCFD;    
     margin-bottom: 20px;
@@ -759,13 +752,16 @@ table {
 
 .fifth-portfolio .content .obj-slid{
     display: flex;
-    overflow-x: hidden; 
+    //overflow-x: hidden;
+    overflow-x: scroll;        
 }
+
 .fifth-portfolio .content .obj-slid .object{
     max-width: 540px;
     width: 100%;
     margin-right: 2.98%; 
     background-color: #F9FAFB;
+    cursor: pointer;
 }
 
 .fifth-portfolio .content .obj-slid .object img{
