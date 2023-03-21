@@ -483,20 +483,18 @@ footer .footer-content .infoblock .application {
   max-width: 217px;
   width: 100%;
 }
-footer .footer-content .infoblock a {
+footer .footer-content .infoblock li a {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 140%;
   color: #D0D5DD;
   text-decoration: none;
-}
-footer .footer-content .infoblock a li {
   height: 32px;
   display: flex;
   align-items: center;
 }
-footer .footer-content .infoblock a .big-size {
+footer .footer-content .infoblock .big-size {
   min-width: 217px;
   width: 100%;
 }
